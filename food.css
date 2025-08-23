@@ -44,3 +44,41 @@ iframe {
     height:310px; 
 
   }
+  
+.podcast-list {
+    font-size: 1.1rem;        /* Much smaller font, scales well on mobile */
+    font-weight: normal;
+    color: #4B0082;           /* Softer color for readability */
+    padding-left: 20px;
+    margin: 16px 0 32px 0;    /* More space above and below */
+    list-style-type: disc;
+}
+
+.podcast-list li {
+    margin-bottom: 10px;      /* Add vertical space between items */
+    line-height: 1.4;         /* Spaced for easy touch/click */
+}
+
+.podcast-list a {
+    color: #2A52BE;           /* Blue, easily distinguishable */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.podcast-list a:hover {
+    color: #6A5ACD;
+    text-decoration: underline;
+}
+
+/* Responsive font sizing for small screens */
+@media (max-width: 600px) {
+    .podcast-list {
+        font-size: 1rem;
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+    .podcast-list li {
+        margin-bottom: 8px;
+    }
+}
