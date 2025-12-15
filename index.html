@@ -1,52 +1,98 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI</title>
+    <title>AI & Wellness Hub</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="food.css">
-    <!-- CSS only -->
+
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="205x154" href="favicon.png">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
-<div>   
-<img src="ai.gif"  alt="Nueronetwork" class="move" id="usd">
-</div>
+    <div class="container">
 
+        <!-- Header Section -->
+        <header>
+            <img src="ai.gif" alt="Neuron Network Animation" class="hero-image">
+        </header>
 
-</br>
-<div>
-    <div>Creation</div>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLMxIQXeV5qvE2Po5F4LO_rJvOIfEHreC9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Video Resources Section -->
+        <section>
+            <h2 class="section-title">Featured Videos</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">Creation</div>
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/videoseries?list=PLMxIQXeV5qvE2Po5F4LO_rJvOIfEHreC9"
+                            title="Creation Playlist"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">Trends</div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/videoseries?list=PLMxIQXeV5qvERSTYgatIz8y5lvDWl_QUY"
+                            title="Trends Playlist"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</div>
-</br>
-<div></div>
-    <div>Trends</div>
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLMxIQXeV5qvERSTYgatIz8y5lvDWl_QUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Learning Resources Section -->
+        <section>
+            <h2 class="section-title">Knowledge Hub</h2>
+            <div class="grid-2">
 
-</div>
-</br>
-</br>
+                <!-- LLM Podcasts Column -->
+                <div class="card">
+                    <div class="card-header">LLM Research Podcasts</div>
+                    <ul class="resource-list">
+                        <li><a href="https://shaoli-lu.github.io/ai2/" target="_blank">Ben Mann</a></li>
+                        <li><a href="https://shaoli-lu.github.io/ai3/" target="_blank">Dario</a></li>
+                        <li><a href="https://shaoli-lu.github.io/ai4/" target="_blank">Demystify LLM</a></li>
+                        <li><a href="https://shaoli-lu.github.io/ai5/" target="_blank">Decoding AI Minds</a></li>
+                        <li><a href="https://shaoli-lu.github.io/ai6/" target="_blank">Machine Intelligence</a></li>
+                        <li><a href="https://shaoli-lu.github.io/ai7/" target="_blank">How LLMs Learned to Reason</a>
+                        </li>
+                        <li><a href="https://shaoli-lu.github.io/ai8/" target="_blank">ML Fundamentals</a></li>
+                    </ul>
+                </div>
 
-   <div>Podcasts</div>
-<ul class="podcast-list">
-  <li><a href="https://shaoli-lu.github.io/ai2/" target="_blank">Ben Mann</a></li>
-  <li><a href="https://shaoli-lu.github.io/ai3/" target="_blank">Dario</a></li>
-  <li><a href="https://shaoli-lu.github.io/ai4/" target="_blank">Demystify LLM</a></li>
-  <li><a href="https://shaoli-lu.github.io/ai5/" target="_blank">Decoding AI Minds</a></li>
-  <li><a href="https://shaoli-lu.github.io/ai6/" target="_blank">Machine Intelligence</a></li>
-  <li><a href="https://shaoli-lu.github.io/ai7/" target="_blank">How LLMs Learned to Reason</a></li>
-  <li><a href="https://shaoli-lu.github.io/ai8/" target="_blank">ML Fundamentals</a></li>
-</ul>
+                <!-- Nutrition Column -->
+                <div class="card">
+                    <div class="card-header">Nutrition & Wellness</div>
+                    <ul class="resource-list">
+                        <li><a href="https://shaoli-lu.github.io/ai1a/" target="_blank">Eye Repair Routine</a>
+                        </li>
+                        <li><a href="https://shaoli-lu.github.io/ai1a1/" target="_blank">Chia Power</a>
+                        </li>
+                        <li><a href="https://shaoli-lu.github.io/ai1a2/" target="_blank">Vegetable Deception</a>
+                        </li>
+                        <li><a href="https://shaoli-lu.github.io/ai1a3/" target="_blank">Nut Paradox</a>
+                        </li>
+                        <li><a href="https://shaoli-lu.github.io/ai1a4/" target="_blank">Fruit Guide 60+</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-
-</div>
-</br>
-
+    </div>
 </body>
+
 </html>
